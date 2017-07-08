@@ -14,6 +14,7 @@
 		C9B978341F0E16AB007E5A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B978331F0E16AB007E5A0C /* Assets.xcassets */; };
 		C9B978371F0E16AB007E5A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B978351F0E16AB007E5A0C /* LaunchScreen.storyboard */; };
 		C9B978421F0E1977007E5A0C /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B978411F0E1977007E5A0C /* UIView+Frame.m */; };
+		C9B978451F10735A007E5A0C /* ChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B978441F10735A007E5A0C /* ChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C9B978381F0E16AB007E5A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9B978401F0E1977007E5A0C /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		C9B978411F0E1977007E5A0C /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C9B978431F10735A007E5A0C /* ChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartView.h; sourceTree = "<group>"; };
+		C9B978441F10735A007E5A0C /* ChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				C9B978401F0E1977007E5A0C /* UIView+Frame.h */,
 				C9B978411F0E1977007E5A0C /* UIView+Frame.m */,
+				C9B978431F10735A007E5A0C /* ChartView.h */,
+				C9B978441F10735A007E5A0C /* ChartView.m */,
 			);
 			name = lib;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				C9B978421F0E1977007E5A0C /* UIView+Frame.m in Sources */,
 				C9B9782F1F0E16AB007E5A0C /* ViewController.m in Sources */,
+				C9B978451F10735A007E5A0C /* ChartView.m in Sources */,
 				C9B9782C1F0E16AB007E5A0C /* AppDelegate.m in Sources */,
 				C9B978291F0E16AB007E5A0C /* main.m in Sources */,
 			);
@@ -324,6 +330,7 @@
 				C9B9783D1F0E16AB007E5A0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
